@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circular Border -->
+    <circle cx="75" cy="75" r="70" fill="#FFF" stroke="#FF6B35" stroke-width="2"/>
+    
+    <!-- Inner Circle with Gradient -->
+    <circle cx="75" cy="75" r="65" fill="url(#radialGradient)"/>
+    
+    <!-- Gradient Definition -->
+    <defs>
+        <radialGradient id="radialGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:0.1"/>
+            <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:0.3"/>
+        </radialGradient>
+    </defs>
+    
+    <!-- Lakshmi Goddess Stylized Symbol -->
+    <g transform="translate(35,35)">
+        <!-- Crown -->
+        <path d="M40 20 L60 40 L40 50 L20 40 L40 20" fill="#FF6B35" opacity="0.8"/>
+        
+        <!-- Face Outline -->
+        <path d="M40 45 Q50 60 40 75 Q30 60 40 45" fill="#FF6B35" opacity="0.8"/>
+        
+        <!-- Decorative Elements -->
+        <circle cx="35" cy="55" r="2" fill="#2E294E"/>
+        <circle cx="45" cy="55" r="2" fill="#2E294E"/>
+        <path d="M37 60 Q40 62 43 60" fill="none" stroke="#2E294E" stroke-width="1"/>
+        
+        <!-- Lotus in Hands -->
+        <path d="M20 70 Q40 80 60 70" fill="none" stroke="#FF6B35" stroke-width="2"/>
+        <path d="M30 65 Q40 75 50 65" fill="none" stroke="#FF6B35" stroke-width="2"/>
+    </g>
+    
+    <!-- Text Circle -->
+    <path id="textCircle" d="M75,25 A50,50 0 1,1 74.99,25" fill="none"/>
+    <text>
+        <textPath href="#textCircle" startOffset="0%" style="font-size: 12px; font-family: Arial;">
+            श्री लक्ष्मी सहकारी पतसंस्था मर्या, आगळगांव
+        </textPath>
+    </text>
+</svg>

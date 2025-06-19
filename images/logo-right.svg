@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circular Border -->
+    <circle cx="75" cy="75" r="70" fill="#FFF" stroke="#2E294E" stroke-width="2"/>
+    
+    <!-- Inner Circle with Gradient -->
+    <circle cx="75" cy="75" r="65" fill="url(#radialGradient)"/>
+    
+    <!-- Gradient Definition -->
+    <defs>
+        <radialGradient id="radialGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#2E294E;stop-opacity:0.1"/>
+            <stop offset="100%" style="stop-color:#2E294E;stop-opacity:0.3"/>
+        </radialGradient>
+    </defs>
+    
+    <!-- Shivaji Maharaj Stylized Symbol -->
+    <g transform="translate(35,30)">
+        <!-- Crown/Pagdi -->
+        <path d="M40 20 C50 15 60 25 55 35 C45 40 35 40 25 35 C20 25 30 15 40 20" 
+              fill="#2E294E" opacity="0.8"/>
+        
+        <!-- Face Outline -->
+        <path d="M40 35 Q50 45 40 60 Q30 45 40 35" 
+              fill="#2E294E" opacity="0.8"/>
+        
+        <!-- Mustache -->
+        <path d="M30 50 Q40 55 50 50" 
+              fill="none" stroke="#2E294E" stroke-width="1.5"/>
+        
+        <!-- Shoulders/Armor -->
+        <path d="M25 65 Q40 70 55 65 L60 80 L20 80 Z" 
+              fill="#2E294E" opacity="0.6"/>
+        
+        <!-- Sword Handle -->
+        <rect x="35" y="75" width="10" height="15" 
+              fill="#FF6B35" opacity="0.8"/>
+    </g>
+    
+    <!-- Text Circle -->
+    <path id="textCircle" 
+          d="M75,25 A50,50 0 1,1 74.99,25" 
+          fill="none"/>
+    <text>
+        <textPath href="#textCircle" 
+                  startOffset="0%" 
+                  style="font-size: 12px; font-family: Arial;">
+            श्री शिवाजी महाराज की जय
+        </textPath>
+    </text>
+</svg>
