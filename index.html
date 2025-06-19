@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>श्री लक्ष्मी सहकारी पतसंस्था मर्या, आगळगांव</title>
+    
+    <link rel="icon" type="image/svg+xml" href="images/logo-left.svg">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="announcement-bar text-white py-1">
+        <div class="container text-center">
+            <p class="mb-0 animate-pulse">॥ विना संस्कार, नही सहकार ॥</p>
+        </div>
+    </div>
+
+    <header class="header-main bg-white">
+        <div class="container py-3">
+            <div class="row align-items-center">
+                <div class="col-lg-2">
+                    <img src="images/leftlogo.png" alt="Logo" class="img-fluid">
+                    <div class="header-detail-animated mt-2">रजि.नं.सांगली/क.महां./साधन संस्था/१०३५/०६/०३/१९८२</div>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <h1 class="institution-name main-title-orange">श्री लक्ष्मी</h1>
+                    <div class="main-subtitle">सहकारी पतसंस्था मर्या, आगळगांव</div>
+                    <p class="registration-number">संस्था- आय.एफ.एस.सी.कोड YESBOCMSNOC</p>
+                    <div class="header-details-animated mt-2">
+                        <div class="header-detail-animated">स्थापना ०६/०३/१९८२</div>
+                        <div class="header-detail-animated">ता. कवठे महांकाळ, जि. सांगली. फोन नं.-९६३७३५३६५०</div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/logoright.png" alt="Logo" class="img-fluid">
+                    <div class="header-detail-animated mt-2">कार्यालयीन कामकाज वेळ - सकाळी ०८ ते १२ सांय.०५ ते ८.३० पर्यंत</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarMain">
+                <ul class="navbar-nav d-flex justify-content-center align-items-center" style="width:100%;">
+                    <li class="nav-item"><a class="nav-link" href="#home">मुख्यपृष्ठ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">वैशिष्ट्ये</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interest-rates">व्याजदर</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#loans">कर्ज योजना</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">संपर्क</a></li>
+                </ul>
+                <div class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item">
+                        <button class="nav-link search-btn" onclick="openSearchModal()" title="शोधा">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </li>
+                     <li class="nav-item">
+                        <button class="nav-link translate-btn" onclick="openTranslateModal()" title="Translate">
+                            <i class="fas fa-language"></i>
+                        </button>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section bg-light py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-content animate-fade-in">
+                            <h2 class="mb-4 animate-slide-in">आगळेश्वर नगरीत सहर्ष स्वागत</h2>
+                            <p class="lead animate-slide-in">मा.श्री.भारत (बापू) निकम यांच्या नेतृत्वाखाली वाटचाल करीत असलेली पतसंस्था...</p>
+                            <div class="mt-4 animate-fade-in">
+                                <a href="#loans" class="btn btn-primary btn-lg me-3">कर्ज योजना</a>
+                                <a href="#contact" class="btn btn-outline-primary btn-lg">संपर्क करा</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-image text-center animate-scale-in">
+                            <img src="images/hero-image.svg" alt="Hero Image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">संस्थेची वैशिष्ट्ये</h2>
+                <div class="row g-4 stagger-animation">
+                    <div class="col-md-4">
+                        <div class="feature-card animate-fade-in">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-laptop fa-2x"></i>
+                            </div>
+                            <h3>संपूर्ण संगणकीकृत कामकाज</h3>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-calendar-check fa-2x"></i>
+                            </div>
+                            <h3>३६५ दिवस सुरू असणारी पतसंस्था</h3>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-award fa-2x"></i>
+                            </div>
+                            <h3>सतत ऑडीट वर्ग 'अ'</h3>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Available Services Section -->
+        <section id="services" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">उपलब्ध सेवा</h2>
+                <div class="row g-4 stagger-animation">
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-university fa-2x"></i>
+                            </div>
+                            <h4>बँक लॉकर</h4>
+                            <p>सुरक्षित लॉकर सेवा तुमच्या मौल्यवान वस्तूंसाठी.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-exchange-alt fa-2x"></i>
+                            </div>
+                            <h4>NEFT</h4>
+                            <p>NEFT द्वारे जलद आणि सुरक्षित पैसे ट्रान्सफर.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-random fa-2x"></i>
+                            </div>
+                            <h4>RTGS</h4>
+                            <p>मोठ्या रकमेचे त्वरित ट्रान्सफर RTGS द्वारे.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-credit-card fa-2x"></i>
+                            </div>
+                            <h4>ATM / डेबिट कार्ड</h4>
+                            <p>सुविधाजनक आणि सुरक्षित व्यवहारांसाठी कार्ड सेवा.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-mobile-alt fa-2x"></i>
+                            </div>
+                            <h4>मोबाईल बँकिंग</h4>
+                            <p>२४x७ बँकिंग सेवा तुमच्या मोबाईलवर.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-user-friends fa-2x"></i>
+                            </div>
+                            <h4>कस्टमर सपोर्ट</h4>
+                            <p>प्रश्नांसाठी तत्पर ग्राहक सेवा.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-receipt fa-2x"></i>
+                            </div>
+                            <h4>पासबुक प्रिंटिंग</h4>
+                            <p>तुमच्या खात्याचा तपशील त्वरित मिळवा.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="feature-card animate-fade-in text-center h-100">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-wallet fa-2x"></i>
+                            </div>
+                            <h4>कॅश डिपॉझिट/विथड्रॉल</h4>
+                            <p>सोयीस्कर रोख जमा व काढण्याची सुविधा.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="interest-rates" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">ठेवीवरील आकर्षक व्याजदर</h2>
+                <div class="table-responsive animate-slide-in">
+                    <table class="table table-bordered">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>कालावधी</th>
+                                <th>व्याजदर</th>
+                                <th>कृती</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>३० दिवस ते ४५ दिवस</td>
+                                <td><span class="badge bg-success">४%</span></td>
+                                <td><button class="btn btn-sm btn-primary tooltip" onclick="showRateDetails('30-45', '4%')">तपशील <span class="tooltiptext">क्लिक करा तपशील पाहण्यासाठी</span></button></td>
+                            </tr>
+                            <tr>
+                                <td>४६ दिवस ते ९० दिवस</td>
+                                <td><span class="badge bg-success">५.५%</span></td>
+                                <td><button class="btn btn-sm btn-primary tooltip" onclick="showRateDetails('46-90', '5.5%')">तपशील <span class="tooltiptext">क्लिक करा तपशील पाहण्यासाठी</span></button></td>
+                            </tr>
+                            <tr>
+                                <td>९१ दिवस ते १८० दिवस</td>
+                                <td><span class="badge bg-success">७%</span></td>
+                                <td><button class="btn btn-sm btn-primary tooltip" onclick="showRateDetails('91-180', '7%')">तपशील <span class="tooltiptext">क्लिक करा तपशील पाहण्यासाठी</span></button></td>
+                            </tr>
+                            <tr>
+                                <td>१८१ दिवस ते १ वर्ष</td>
+                                <td><span class="badge bg-success">७.५%</span></td>
+                                <td><button class="btn btn-sm btn-primary tooltip" onclick="showRateDetails('181-365', '7.5%')">तपशील <span class="tooltiptext">क्लिक करा तपशील पाहण्यासाठी</span></button></td>
+                            </tr>
+                            <tr>
+                                <td>१ वर्ष ते ३ वर्ष</td>
+                                <td><span class="badge bg-success">८%</span></td>
+                                <td><button class="btn btn-sm btn-primary tooltip" onclick="showRateDetails('1-3', '8%')">तपशील <span class="tooltiptext">क्लिक करा तपशील पाहण्यासाठी</span></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="loans" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">कर्ज योजना</h2>
+                <div class="row g-4 stagger-animation">
+                    <div class="col-md-4">
+                        <div class="loan-card animate-scale-in">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-coins fa-2x"></i>
+                            </div>
+                            <h3>सोन्याची साथ</h3>
+                            <p>फक्त १० मिनिटात गोल्ड लोन उपलब्ध</p>
+                            <ul class="list-unstyled animate-slide-in">
+                                <li><i class="fas fa-check text-success me-2"></i>कमीत कमी कागदपत्रे</li>
+                                <li><i class="fas fa-check text-success me-2"></i>कमीत कमी व्याजदर</li>
+                                <li><i class="fas fa-check text-success me-2"></i>प्रति तोळा सर्वाधिक रक्कम</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" onclick="showLoanDetails('gold')">अधिक माहिती</button>
+                            <button class="btn btn-success mt-3 ms-2" onclick="scrollToLoanForm('gold')">कर्ज अर्ज करा</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="loan-card">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-car fa-2x"></i>
+                            </div>
+                            <h3>वाहन कर्ज</h3>
+                            <p>इलेक्ट्रिक वाहन कर्ज</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>सर्व प्रकारची वाहने</li>
+                                <li><i class="fas fa-check text-success me-2"></i>झटपट मंजुरी</li>
+                                <li><i class="fas fa-check text-success me-2"></i>सोपी परतफेड</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" onclick="showLoanDetails('vehicle')">अधिक माहिती</button>
+                            <button class="btn btn-success mt-3 ms-2" onclick="scrollToLoanForm('vehicle')">कर्ज अर्ज करा</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="loan-card">
+                            <div class="icon-box mb-3">
+                                <i class="fas fa-graduation-cap fa-2x"></i>
+                            </div>
+                            <h3>शैक्षणिक कर्ज</h3>
+                            <p>उच्च शिक्षणासाठी कर्ज</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>सर्व शैक्षणिक अभ्यासक्रम</li>
+                                <li><i class="fas fa-check text-success me-2"></i>परवडणारे व्याजदर</li>
+                                <li><i class="fas fa-check text-success me-2"></i>लवचिक परतफेड</li>
+                            </ul>
+                            <button class="btn btn-primary mt-3" onclick="showLoanDetails('education')">अधिक माहिती</button>
+                            <button class="btn btn-success mt-3 ms-2" onclick="scrollToLoanForm('education')">कर्ज अर्ज करा</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loan Application Section -->
+        <section id="loan-application" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">कर्ज अर्ज</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body p-4">
+                                <form id="loanApplicationForm" class="loan-application-form">
+                                    <div class="mb-4">
+                                        <label for="loanType" class="form-label">कर्जाचा प्रकार</label>
+                                        <select class="form-select" id="loanType" name="loanType" required>
+                                            <option value="">कर्जाचा प्रकार निवडा</option>
+                                            <option value="gold">सोन्याची साथ - गोल्ड लोन</option>
+                                            <option value="vehicle">वाहन कर्ज</option>
+                                            <option value="education">शैक्षणिक कर्ज</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="applicantName" class="form-label">नाव</label>
+                                        <input type="text" class="form-control" id="applicantName" name="name" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="applicantMobile" class="form-label">मोबाईल नंबर</label>
+                                        <input type="tel" class="form-control" id="applicantMobile" name="mobile" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="applicantEmail" class="form-label">ईमेल</label>
+                                        <input type="email" class="form-control" id="applicantEmail" name="email" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="applicantMessage" class="form-label">अतिरिक्त माहिती</label>
+                                        <textarea class="form-control" id="applicantMessage" name="message" rows="4"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <span class="btn-text">अर्ज सबमिट करा</span>
+                                        <span class="btn-loading" style="display: none;">
+                                            <div class="loading-spinner"></div>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mobile-banking" class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="section-title mb-4 animate-fade-in">मोबाईल बँकिंग सेवा</h2>
+                        <p class="lead">आता तुमच्या मोबाईलवर सर्व बँकिंग सुविधा</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success me-2"></i>२४x७ बँकिंग सुविधा</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>सुरक्षित व्यवहार</li>
+                            <li><i class="fas fa-check-circle text-success me-2"></i>रोखरहित व्यवहार</li>
+                        </ul>
+                        <button class="btn btn-primary mt-3" onclick="downloadApp()">अॅप डाउनलोड करा</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="images/mobile-banking.svg" alt="Mobile Banking" class="img-fluid animate-scale-in">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 animate-fade-in">संपर्क</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contact-info animate-slide-in">
+                            <h3>कार्यालयीन वेळ</h3>
+                            <p>सकाळी: ८.३० ते दुपारी - १२.३०<br>
+                               सायंकाळी: ५.३० ते रात्री - ८.३०</p>
+                            
+                            <h3>पत्ता</h3>
+                            <p>मु.पो.आगळगांव ता.कवठे महांकाळ<br>
+                               जि.सांगली. पिन ४१६४०३</p>
+                            
+                            <h3>संपर्क क्रमांक</h3>
+                            <p><a href="tel:9637353650" class="text-decoration-none">९६३७३५३६५०</a><br>
+                               <a href="tel:9923578892" class="text-decoration-none">९९२३५७८८९२</a></p>
+                            
+                            <h3>ईमेल</h3>
+                            <p><a href="mailto:shrilaxmisahpat@gmail.com" class="text-decoration-none">shrilaxmisahpat@gmail.com</a></p>
+                            
+                            <!-- Call Now Button -->
+                            <a href="tel:9637353650" id="callNowBtn" class="btn btn-success btn-lg w-100 my-3"
+                               data-en="Call Now" data-mr="आता कॉल करा" data-hi="अब कॉल करें" data-gu="હવે કોલ કરો" data-ta="இப்போது அழைக்கவும்" data-te="ఇప్పుడు కాల్ చేయండి" data-bn="এখন কল করুন" data-pa="ਹੁਣੇ ਕਾਲ ਕਰੋ" data-ur="ابھی کال کریں">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="contact-form animate-slide-in" id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="name" placeholder="नाव" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" name="phone" placeholder="मोबाईल नंबर" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" placeholder="ईमेल">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" name="message" rows="4" placeholder="संदेश" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <span class="btn-text">पाठवा</span>
+                                <span class="btn-loading" style="display: none;">
+                                    <div class="loading-spinner"></div>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Action Button -->
+    <button class="fab" onclick="scrollToTop()" title="वर जा">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Rate Details Modal -->
+    <div id="rateModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('rateModal')">&times;</span>
+            <h3 id="modalTitle">व्याजदर तपशील</h3>
+            <div id="modalContent">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Loan Details Modal -->
+    <div id="loanModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loanModal')">&times;</span>
+            <h3 id="loanModalTitle">कर्ज तपशील</h3>
+            <div id="loanModalContent">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="searchModal" class="modal">
+        <div class="modal-content search-modal-content">
+            <span class="close" onclick="closeModal('searchModal')">&times;</span>
+            <h3 class="text-center mb-4">शोधा</h3>
+            <div class="search-container">
+                <div class="input-group mb-3">
+                    <input type="text" id="searchInput" class="form-control search-input" placeholder="तुम्ही काय शोधत आहात?" autocomplete="off">
+                    <button class="btn btn-primary" type="button" onclick="performSearch()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div id="searchResults" class="search-results">
+                    <!-- Search results will appear here -->
+                </div>
+                <div class="popular-searches mt-4">
+                    <h5>लोकप्रिय शोध:</h5>
+                    <div class="popular-tags">
+                        <span class="search-tag" onclick="searchByTag('कर्ज')">कर्ज</span>
+                        <span class="search-tag" onclick="searchByTag('व्याजदर')">व्याजदर</span>
+                        <span class="search-tag" onclick="searchByTag('ठेव')">ठेव</span>
+                        <span class="search-tag" onclick="searchByTag('सोने')">सोने</span>
+                        <span class="search-tag" onclick="searchByTag('वाहन')">वाहन</span>
+                        <span class="search-tag" onclick="searchByTag('शिक्षण')">शिक्षण</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Translate Modal -->
+    <div id="translateModal" class="modal">
+        <div class="modal-content" style="max-width: 350px;">
+            <span class="close" onclick="closeModal('translateModal')">&times;</span>
+            <h4 class="mb-3 text-center">Translate Website</h4>
+            <div id="google_translate_element" style="margin: 1.5rem 0;"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'mr',
+            includedLanguages: 'en,hi,gu,ta,te,bn,pa,ur,mr',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+    function openTranslateModal() {
+        document.getElementById('translateModal').style.display = 'block';
+    }
+    function closeModal(modalId) {
+        var modal = document.getElementById(modalId);
+        if (modal) modal.style.display = 'none';
+    }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; २०२३ श्री लक्ष्मी सहकारी पतसंस्था मर्या, आगळगांव</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p class="mb-0">Developed with <i class="fas fa-heart text-danger animate-pulse"></i> by Sagar & Prathamesh</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    function updateCallNowButton() {
+        var btn = document.getElementById('callNowBtn');
+        if (!btn) return;
+        // Get the current language from the Google Translate cookie
+        var lang = 'en';
+        var matches = document.cookie.match(/googtrans=\/([a-z]{2})\/([a-z]{2})/);
+        if (matches && matches[2]) lang = matches[2];
+        // Set text based on data attribute, fallback to English
+        var text = btn.getAttribute('data-' + lang) || btn.getAttribute('data-en');
+        btn.innerHTML = '<i class="fas fa-phone"></i> ' + text;
+    }
+    setInterval(updateCallNowButton, 1000);
+    </script>
+    <script>
+    function scrollToLoanForm(loanType) {
+        var formSection = document.getElementById('loanApplicationForm');
+        if (formSection) {
+            formSection.scrollIntoView({ behavior: 'smooth' });
+            // Set the loan type if the dropdown exists
+            var loanTypeSelect = document.getElementById('loanType');
+            if (loanTypeSelect) {
+                loanTypeSelect.value = loanType;
+            }
+        }
+    }
+    </script>
+</body>
+</html>
