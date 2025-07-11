@@ -154,9 +154,7 @@
     animation-delay: var(--animation-delay);
 }
 
-.animate-pulse {
-    animation: pulse 2s infinite;
-}
+
 
 .animate-float {
     animation: float 3s ease-in-out infinite;
